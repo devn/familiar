@@ -7,7 +7,5 @@ Gem::Specification.new do |s|
   s.description = "Clojure RT for Ruby"
   s.authors     = ["Dave Ray"]
   s.email       = 'daveray@gmail.com'
-  s.files       = ["lib/familiar.rb", 
-                   "lib/clojure-1.3.0.jar"]
   s.homepage    = 'http://rubygems.org/gems/familiar'
 end
