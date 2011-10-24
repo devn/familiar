@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.authors       = ['Dave Ray']
   s.email         = 'daveray@gmail.com'
   s.homepage      = 'http://rubygems.org/gems/familiar'
-  s.files         = `git ls-files`.split("\n")
+  s.files         = ["lib/familiar.rb",
+                     "lib/clojure-1.3.0.jar"]
   s.require_paths = ["lib"]
 end
